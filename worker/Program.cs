@@ -19,6 +19,7 @@ namespace Worker
                 var pgsql = OpenDbConnection("Server=db;Username=postgres;Password=postgres;");
                 var redisConn = OpenRedisConnection("redis");
                 var redis = redisConn.GetDatabase();
+                //this is a test comment number 2 in feature branch
                 //this is a test comment number 2 in main
                 //Test comment 2
                 // Keep alive is not implemented in Npgsql yet. This workaround was recommended:
